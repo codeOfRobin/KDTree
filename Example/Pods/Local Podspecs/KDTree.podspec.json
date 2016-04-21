@@ -1,25 +1,21 @@
 {
   "name": "KDTree",
   "version": "0.1.0",
-  "summary": "A short description of KDTree.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/KDTree",
+  "summary": "A space-partitioning data structure.",
+  "description": "k-dimensional tree, a space-partitioning data structure, in Swift.\n\nParticularly useful data structure for clustering coordinates.",
+  "homepage": "https://github.com/ashare80/KDTree",
   "license": "MIT",
   "authors": {
     "Adam Share": "ashare80@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/KDTree.git",
+    "git": "https://github.com/ashare80/KDTree.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/adamshare>",
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "KDTree": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "source_files": "Pod/Source/**/*"
 }

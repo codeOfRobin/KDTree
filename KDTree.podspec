@@ -9,14 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = "KDTree"
   s.version          = "0.1.0"
-  s.summary          = "A short description of KDTree."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+  s.summary          = "A space-partitioning data structure."
   s.description      = <<-DESC
+k-dimensional tree, a space-partitioning data structure, in Swift.
+
+Particularly useful data structure for clustering coordinates.
                        DESC
 
   s.homepage         = "https://github.com/ashare80/KDTree"
@@ -24,17 +21,10 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Adam Share" => "ashare80@gmail.com" }
   s.source           = { :git => "https://github.com/ashare80/KDTree.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/adamshare>'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'KDTree' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'Pod/Source/**/*'
 end

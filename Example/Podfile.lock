@@ -1,7 +1,7 @@
 PODS:
   - KDTree (0.1.0)
   - Nimble (3.2.0)
-  - Quick (0.9.1)
+  - Quick (0.9.2)
 
 DEPENDENCIES:
   - KDTree (from `../`)
@@ -13,8 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KDTree: 783edcd98e04da348833ca27e1a6c186271c7af9
+  KDTree: 36a994d4eecc34b3c4d3fbdb8c1144ab56f63619
   Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
-  Quick: a5221fc21788b6aeda934805e68b061839bc3165
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
 
 COCOAPODS: 0.39.0
