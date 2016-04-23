@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import MapKit
+import KDTree
 
 extension MKMapRect: BoundingValues {
     
@@ -23,8 +25,7 @@ extension MKMapRect: BoundingValues {
                 mapPoint = point
             }
             else {
-                let valueArray = value.valueArray
-                mapPoint = MKMapPoint(x: valueArray[0], y: valueArray[1])
+                mapPoint = MKMapPoint(x: value[0]!, y: value[1]!)
             }
             
             minimum.x = min(mapPoint.x, minimum.x)

@@ -80,26 +80,25 @@ public class KDNode<Element: LocationValue, T: BoundingValues> {
         
         var sumStore: [Int: Double] = [:]
         let count: Double = Double(values.count)
-        let range = 0..<values.first!.valueArray.count
+        let range = values.first!.indices
         
         for i in range {
             sumStore[i] = 0
         }
         
         values.forEach { (value) in
-            let valueArray = value.valueArray
             
             for i in range {
-                sumStore[i] = sumStore[i]! + valueArray[i]
+                sumStore[i] = sumStore[i]! + value[i]!
             }
         }
         
-        var valueArray: [Double] = []
+        var locationValue = Element()
         for i in range {
-            valueArray.append(sumStore[i]! / count)
+            locationValue[i] = sumStore[i]! / count
         }
         
-        return Element.fromValueArray(valueArray)
+        return locationValue
     }
     
     /**
@@ -116,7 +115,7 @@ public class KDNode<Element: LocationValue, T: BoundingValues> {
             return ([], [])
         }
         
-        if splitAxis >= values.first?.valueArray.count {
+        if splitAxis >= values.first?.count as? Int {
             splitAxis = 0
         }
         
@@ -143,8 +142,8 @@ public class KDNode<Element: LocationValue, T: BoundingValues> {
     }
     
     func shouldLocateLeft(value: Element) -> Bool {
-        let average = location.valueArray[splitAxis]
-        let compare = value.valueArray[splitAxis]
+        let average = location[splitAxis]
+        let compare = value[splitAxis]
         if compare < average {
             return true
         }
@@ -171,7 +170,7 @@ extension KDNode {
     
     func remove(value: Element) {
         
-        if isLeaf && value.valueArray == location.valueArray {
+        if isLeaf && value == location {
             parent?.removeChildLeafNode(self)
             return
         }
