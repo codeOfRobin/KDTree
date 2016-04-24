@@ -11,7 +11,6 @@ import KDTree
 import CoreLocation
 
 extension CLLocationCoordinate2D: LocationValue {
-//    public typealias Generator = AnyGenerator<Double>
     
     public var valueArray: [Double] {
         return [self.longitude, self.latitude];

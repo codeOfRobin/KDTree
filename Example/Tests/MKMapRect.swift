@@ -15,9 +15,9 @@ extension MKMapRect: BoundingValues {
     public init<Element : LocationValue>(values: [Element]) {
         var minimum: MKMapPoint = MKMapPoint(x: Double.infinity, y: Double.infinity)
         var maximum: MKMapPoint = MKMapPoint(x: -Double.infinity, y: -Double.infinity)
+        var mapPoint: MKMapPoint!
         
         for value in values {
-            var mapPoint: MKMapPoint!
             if let coordinate = value as? CLLocationCoordinate2D {
                 mapPoint = MKMapPointForCoordinate(coordinate)
             }
