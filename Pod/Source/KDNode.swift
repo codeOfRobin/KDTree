@@ -99,6 +99,8 @@ public class KDNode<Element: LocationValue, T: BoundingValues> {
      */
     var splitAxis: Int = 0
     
+    var splitPlane: [Double] = []
+    
     /**
      Simple alternating axis split. Override to implement a custom algorithm.
      */
@@ -108,7 +110,7 @@ public class KDNode<Element: LocationValue, T: BoundingValues> {
             return ([], [])
         }
         
-        if splitAxis >= values.first?.count as? Int {
+        if splitAxis >= values.first?.endIndex {
             splitAxis = 0
         }
         
@@ -220,3 +222,18 @@ extension KDNode {
         return node.isAncestor(self)
     }
 }
+
+
+
+extension KDNode {
+    
+    func forEachLeaf(@noescape each: (leaf: KDNode) -> Void) {
+        
+        left?.forEachLeaf(each)
+        if isLeaf {
+            each(leaf: self)
+        }
+        right?.forEachLeaf(each)
+    }
+}
+

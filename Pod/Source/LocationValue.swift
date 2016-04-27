@@ -9,7 +9,7 @@
 import Foundation
 
 
-public protocol LocationValue: Equatable, CollectionType {
+public protocol LocationValue: Equatable, Indexable {
     init()
 }
 
