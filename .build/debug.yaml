@@ -1,0 +1,47 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["<KDTree.module>","<KDTreeTests.module>","<KDTreePackageTests.test>"]
+  "main": ["<KDTree.module>"]
+default: "main"
+commands: 
+  "<KDTree.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "KDTree"
+    module-output-path: "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.swiftmodule"
+    inputs: []
+    outputs: ["<KDTree.module>","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/BoundingValues.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDNode.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDTree.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/LocationValue.swift.o"]
+    import-paths: ["/Users/robinmalhotra/Downloads/KDTree/.build/debug"]
+    temps-path: "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build"
+    objects: ["/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/BoundingValues.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDNode.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDTree.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/LocationValue.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/robinmalhotra/Downloads/KDTree/.build/debug/ModuleCache"]
+    sources: ["/Users/robinmalhotra/Downloads/KDTree/Sources/BoundingValues.swift","/Users/robinmalhotra/Downloads/KDTree/Sources/KDNode.swift","/Users/robinmalhotra/Downloads/KDTree/Sources/KDTree.swift","/Users/robinmalhotra/Downloads/KDTree/Sources/LocationValue.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<KDTreeTests.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "KDTreeTests"
+    module-output-path: "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTreeTests.swiftmodule"
+    inputs: ["<KDTree.module>"]
+    outputs: ["<KDTreeTests.module>","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTreeTests.build/KDTreeTests.swift.o"]
+    import-paths: ["/Users/robinmalhotra/Downloads/KDTree/.build/debug"]
+    temps-path: "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTreeTests.build"
+    objects: ["/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTreeTests.build/KDTreeTests.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/robinmalhotra/Downloads/KDTree/.build/debug/ModuleCache"]
+    sources: ["/Users/robinmalhotra/Downloads/KDTree/Tests/KDTreeTests/KDTreeTests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<KDTreePackageTests.test>":
+    tool: shell
+    description: "Linking ./.build/debug/KDTreePackageTests.xctest/Contents/MacOS/KDTreePackageTests"
+    inputs: ["/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTreeTests.build/KDTreeTests.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/BoundingValues.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDNode.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDTree.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/LocationValue.swift.o"]
+    outputs: ["<KDTreePackageTests.test>","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTreePackageTests.xctest/Contents/MacOS/KDTreePackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-g","-L/Users/robinmalhotra/Downloads/KDTree/.build/debug","-o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTreePackageTests.xctest/Contents/MacOS/KDTreePackageTests","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-module-name","KDTreePackageTests","-Xlinker","-bundle","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTreeTests.build/KDTreeTests.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/BoundingValues.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDNode.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDTree.swift.o","/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/LocationValue.swift.o"]
+

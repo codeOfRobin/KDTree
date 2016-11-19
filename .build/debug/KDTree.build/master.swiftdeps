@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "e5ae8894e890188f2f69064034925a57"
+build_time: [532887657, 439166000]
+inputs:
+  "/Users/robinmalhotra/Downloads/KDTree/Sources/BoundingValues.swift": !dirty [532887609, 0]
+  "/Users/robinmalhotra/Downloads/KDTree/Sources/KDNode.swift": !dirty [532887652, 0]
+  "/Users/robinmalhotra/Downloads/KDTree/Sources/KDTree.swift": !dirty [532887295, 0]
+  "/Users/robinmalhotra/Downloads/KDTree/Sources/LocationValue.swift": !dirty [532887295, 0]

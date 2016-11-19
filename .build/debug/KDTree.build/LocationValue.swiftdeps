@@ -1,0 +1,101 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LocationValue"
+- "=="
+provides-nominal:
+- "P6KDTree13LocationValue"
+provides-member:
+- ["P6KDTree13LocationValue", ""]
+- ["P6KDTree13LocationValue", "startIndex"]
+- ["P6KDTree13LocationValue", "endIndex"]
+- ["P6KDTree13LocationValue", "indices"]
+- ["P6KDTree13LocationValue", "subscript"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BooleanLiteralType"
+- "Range"
+- "Bool"
+- "Indexable"
+- "=="
+- !private "..<"
+- "Equatable"
+- "Int"
+- "LocationValue"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Double"
+depends-member:
+- ["Sb", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Index"]
+- ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "Iterator"]
+- ["Ps9Equatable", "Range"]
+- !private ["Ps9Equatable", "endIndex"]
+- !private ["Ps9Equatable", "indices"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "startIndex"]
+- ["Ps9Equatable", ""]
+- ["Ps9Indexable", "Double"]
+- !private ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "Int"]
+- ["Ps9Indexable", "Range"]
+- !private ["Ps9Indexable", "endIndex"]
+- !private ["Ps9Indexable", "indices"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "startIndex"]
+- ["Ps9Indexable", ""]
+- ["Ps13IndexableBase", "Double"]
+- !private ["Ps13IndexableBase", "Index"]
+- ["Ps13IndexableBase", "Int"]
+- ["Ps13IndexableBase", "Range"]
+- !private ["Ps13IndexableBase", "endIndex"]
+- !private ["Ps13IndexableBase", "indices"]
+- ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "startIndex"]
+- ["Si", "deinit"]
+- ["P6KDTree13LocationValue", "Double"]
+- !private ["P6KDTree13LocationValue", "Index"]
+- ["P6KDTree13LocationValue", "Int"]
+- ["P6KDTree13LocationValue", "Range"]
+- ["P6KDTree13LocationValue", "endIndex"]
+- ["P6KDTree13LocationValue", "indices"]
+- ["P6KDTree13LocationValue", "init"]
+- ["P6KDTree13LocationValue", "startIndex"]
+- ["P6KDTree13LocationValue", "subscript"]
+- ["Sq", "deinit"]
+- !private ["Vs5Range", "Iterator"]
+- ["Vs5Range", "deinit"]
+depends-nominal:
+- "Sb"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Si"
+- "P6KDTree13LocationValue"
+- "Sq"
+- "Vs5Range"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "318cffe61d3e841f126e3b4ada22caca"

@@ -1,0 +1,54 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BoundingValues"
+- "=="
+provides-nominal:
+- "P6KDTree14BoundingValues"
+provides-member:
+- ["P6KDTree14BoundingValues", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "LocationValue"
+- "=="
+- "BoundingValues"
+- "Equatable"
+- "Bool"
+depends-member:
+- ["Sb", "deinit"]
+- ["P6KDTree14BoundingValues", "Bool"]
+- ["P6KDTree14BoundingValues", "LocationValue"]
+- ["P6KDTree14BoundingValues", "Self"]
+- ["P6KDTree14BoundingValues", "containsValue"]
+- ["P6KDTree14BoundingValues", "init"]
+- ["P6KDTree14BoundingValues", "intersects"]
+- ["P6KDTree14BoundingValues", "isEqualTo"]
+- ["Ps9Equatable", "Bool"]
+- ["Ps9Equatable", "LocationValue"]
+- ["Ps9Equatable", "Self"]
+- ["Ps9Equatable", "containsValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "intersects"]
+- ["Ps9Equatable", "isEqualTo"]
+- ["Ps9Equatable", ""]
+depends-nominal:
+- "Sb"
+- "P6KDTree14BoundingValues"
+- "Ps9Equatable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "f7dda63f0fee6ae96650bb278da7818b"

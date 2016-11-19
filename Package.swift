@@ -1,5 +1,5 @@
-import PackageDescription 
+import PackageDescription
 
-let package = Package(    
-     name:  "KDTree"
+let package = Package(
+    name: "KDTree"
 )

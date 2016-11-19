@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		422901041DE0B550008E7191 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422901031DE0B550008E7191 /* Extensions.swift */; };
+		OBJ_24 /* BoundingValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BoundingValues.swift */; };
+		OBJ_25 /* KDNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* KDNode.swift */; };
+		OBJ_26 /* KDTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* KDTree.swift */; };
+		OBJ_27 /* LocationValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* LocationValue.swift */; };
+		OBJ_34 /* KDTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* KDTreeTests.swift */; };
+		OBJ_36 /* KDTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* KDTree.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		422901001DE0B3A3008E7191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_19;
+			remoteInfo = KDTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		422901031DE0B550008E7191 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		OBJ_10 /* KDNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDNode.swift; sourceTree = "<group>"; };
+		OBJ_11 /* KDTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDTree.swift; sourceTree = "<group>"; };
+		OBJ_12 /* LocationValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationValue.swift; sourceTree = "<group>"; };
+		OBJ_15 /* KDTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDTreeTests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* KDTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KDTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_18 /* KDTreeTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = KDTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* BoundingValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingValues.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_36 /* KDTree.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_13 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* KDTreeTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		OBJ_14 /* KDTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* KDTreeTests.swift */,
+			);
+			name = KDTreeTests;
+			path = Tests/KDTreeTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* KDTree.framework */,
+				OBJ_18 /* KDTreeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_13 /* Tests */,
+				OBJ_16 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* KDTree */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* KDTree */ = {
+			isa = PBXGroup;
+			children = (
+				422901031DE0B550008E7191 /* Extensions.swift */,
+				OBJ_9 /* BoundingValues.swift */,
+				OBJ_10 /* KDNode.swift */,
+				OBJ_11 /* KDTree.swift */,
+				OBJ_12 /* LocationValue.swift */,
+			);
+			name = KDTree;
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		OBJ_19 /* KDTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_20 /* Build configuration list for PBXNativeTarget "KDTree" */;
+			buildPhases = (
+				OBJ_23 /* Sources */,
+				OBJ_28 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDTree;
+			productName = KDTree;
+			productReference = OBJ_17 /* KDTree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_29 /* KDTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_30 /* Build configuration list for PBXNativeTarget "KDTreeTests" */;
+			buildPhases = (
+				OBJ_33 /* Sources */,
+				OBJ_35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_37 /* PBXTargetDependency */,
+			);
+			name = KDTreeTests;
+			productName = KDTreeTests;
+			productReference = OBJ_18 /* KDTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "KDTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_19 /* KDTree */,
+				OBJ_29 /* KDTreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				422901041DE0B550008E7191 /* Extensions.swift in Sources */,
+				OBJ_24 /* BoundingValues.swift in Sources */,
+				OBJ_25 /* KDNode.swift in Sources */,
+				OBJ_26 /* KDTree.swift in Sources */,
+				OBJ_27 /* LocationValue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_34 /* KDTreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_19 /* KDTree */;
+			targetProxy = 422901001DE0B3A3008E7191 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = KDTree.xcodeproj/KDTree_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = KDTree;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = KDTree;
+			};
+			name = Debug;
+		};
+		OBJ_22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = KDTree.xcodeproj/KDTree_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = KDTree;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = KDTree;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = KDTree.xcodeproj/KDTreeTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = KDTreeTests;
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = KDTree.xcodeproj/KDTreeTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = KDTreeTests;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "KDTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_20 /* Build configuration list for PBXNativeTarget "KDTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_21 /* Debug */,
+				OBJ_22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_30 /* Build configuration list for PBXNativeTarget "KDTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_31 /* Debug */,
+				OBJ_32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

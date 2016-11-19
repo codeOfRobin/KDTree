@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/master.swiftdeps"
+  },
+  "/Users/robinmalhotra/Downloads/KDTree/Sources/BoundingValues.swift": {
+    "dependencies": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/BoundingValues.d",
+    "object": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/BoundingValues.swift.o",
+    "swiftmodule": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/BoundingValues~partial.swiftmodule",
+    "swift-dependencies": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/BoundingValues.swiftdeps"
+  },
+  "/Users/robinmalhotra/Downloads/KDTree/Sources/KDNode.swift": {
+    "dependencies": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDNode.d",
+    "object": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDNode.swift.o",
+    "swiftmodule": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDNode.swiftdeps"
+  },
+  "/Users/robinmalhotra/Downloads/KDTree/Sources/KDTree.swift": {
+    "dependencies": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDTree.d",
+    "object": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDTree.swift.o",
+    "swiftmodule": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDTree~partial.swiftmodule",
+    "swift-dependencies": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/KDTree.swiftdeps"
+  },
+  "/Users/robinmalhotra/Downloads/KDTree/Sources/LocationValue.swift": {
+    "dependencies": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/LocationValue.d",
+    "object": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/LocationValue.swift.o",
+    "swiftmodule": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/LocationValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/robinmalhotra/Downloads/KDTree/.build/debug/KDTree.build/LocationValue.swiftdeps"
+  }
+}
